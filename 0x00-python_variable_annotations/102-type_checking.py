@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-
+""" using mypy to validate"""
 from typing import Tuple, List
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
