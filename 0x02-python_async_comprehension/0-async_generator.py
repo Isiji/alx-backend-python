@@ -3,10 +3,10 @@
 '''
 import asyncio
 import random
-from asyncio import async_generator
+from typing import Generator
 
 
-async def async_generator() -> async_generator[float, None, None]:
+async def async_generator() -> Generator[float, None, None]:
     '''Generates a sequence of 10 numbers.
     '''
     for _ in range(10):
